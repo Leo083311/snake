@@ -123,25 +123,25 @@ public class SnakeApplication extends Application {
             case up:
                 snake.get(0).y--;
                 if (snake.get(0).y < 0) {
-                    gameOver = true;
+                    gameOver = false;
                 }
                 break;
             case down:
                 snake.get(0).y++;
                 if (snake.get(0).y > height) {
-                    gameOver = true;
+                    gameOver = false;
                 }
                 break;
             case left:
                 snake.get(0).x--;
                 if (snake.get(0).x < 0) {
-                    gameOver = true;
+                    gameOver = false;
                 }
                 break;
             case right:
                 snake.get(0).x++;
                 if (snake.get(0).x > width) {
-                    gameOver = true;
+                    gameOver = false;
                 }
                 break;
 

@@ -26,7 +26,7 @@ tasks.withType(JavaCompile) {
 
 application {
     mainModule = 'com.leo.snake'
-    mainClass = 'com.leo.snake.HelloApplication'
+    mainClass = 'com.leo.snake.SnakeApplication'
 }
 
 javafx {
